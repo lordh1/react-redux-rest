@@ -1,0 +1,61 @@
+.Issue__h1 {
+    margin-bottom: 40px;
+}
+
+.Issue__button {
+    position: relative;
+    background-color: #2196F3;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.Issue__button:hover {background-color: #0b7dda;}
+
+.Issue__button:active {
+    background: #042b4b;
+}
+
+.Issue__ButtonsArea {
+    margin: 20px;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+    .Issue__button {
+        width: 80%;
+        display: block;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Issue__h1 {
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px)  {
+
+    .Issue__button {
+        width: 50%;
+        display: block;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Issue__h1 {
+        text-align: center;
+        margin: 10px;
+    }
+}

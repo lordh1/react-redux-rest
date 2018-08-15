@@ -1,0 +1,68 @@
+.Issues__h1 h1 {
+    margin-bottom: 40px;
+}
+
+.Issues__table {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.Issues__table th {
+    background-color: #86a8f1;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.Issues__table td {
+    border: 1px solid black;
+    padding: 5px;
+    word-break: break-all;
+}
+
+.Issues__table tr {
+    word-break: break-all;
+}
+
+.Issues__table tr:hover {
+    background-color: #47547e;
+    cursor: pointer;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+
+    .Issues__button {
+        width: 80%;
+        display: block;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Issues__h1 {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .Issues__table th, Issues__table td {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px)  {
+    Issues__h1 {
+        text-align: center;
+        margin: 10px;
+    }
+
+    Issues__table th, Issues__table td {
+        height: 50px;
+    }
+}
