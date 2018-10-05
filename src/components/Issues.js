@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import '../css/Issues.css'
-import {SetIssue} from "../actions/issue";
+import {SetIssue} from "../store/actions/issue";
 import connect from "react-redux/es/connect/connect";
-import {FetchIssues} from "../actions/issues";
+import {FetchIssues} from "../store/actions/issues";
 
 class Issues extends React.PureComponent {
     static propTypes = {

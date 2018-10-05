@@ -6,10 +6,6 @@ export const ReceiveIssues = (issues) => ({
   issues: issues
 })
 
-export const FlushIssues = () => ({
-  type: FLUSH_ISSUES
-})
-
 const apiUrl = 'https://api.github.com/repos/facebook/react/issues'
 
 export const FetchIssues = () => async (dispatch) => {

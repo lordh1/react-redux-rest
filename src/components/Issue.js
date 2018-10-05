@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import '../css/Issue.css'
-import { FlushIssue } from '../actions/issue'
+import { FlushIssue } from '../store/actions/issue'
 import connect from "react-redux/es/connect/connect";
 
 class Issue extends React.PureComponent {

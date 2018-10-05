@@ -7,25 +7,7 @@ export const SetIssue = (issue) => ({
   issue: issue
 })
 
-export const GetIssue = (issue) => ({
-  type: GET_ISSUE,
-  issue: issue
-})
-
 export const FlushIssue = () => ({
   type: FLUSH_ISSUE
 })
 
-export const FetchIssue = (issueUrl) => dispatch => {
-
-  var options = {
-    method: 'GET'
-  }
-
-  fetch(issueUrl, options)
-    .then(response => response.json())
-    .then(issue => dispatch(GetIssue(issue)))
-    .catch(error => {
-      throw(error)
-    })
-}
