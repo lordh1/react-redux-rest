@@ -14,7 +14,7 @@ const apiUrl = 'https://api.github.com/repos/facebook/react/issues'
 
 export const FetchIssues = () => async (dispatch) => {
 
-  var options = {
+  let options = {
     method: 'GET'
   }
 
